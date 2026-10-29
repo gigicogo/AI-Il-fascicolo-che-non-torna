@@ -27,16 +27,6 @@ Per avanzare occorre completare correttamente ciascuna fase; in caso di errore c
 - Da smartphone funziona, ma il lavoro sulle fonti è più agevole su computer.
 - Consiglio: predisporre 30 minuti, con 3–5 minuti finali di discussione facoltativa.
 
-## Pubblicazione su GitHub Pages
-
-1. Crea un repository GitHub (per esempio `il-fascicolo-che-non-torna`).
-2. Carica **`index.html` e `README.md`** nella radice del repository.
-3. In **Settings → Pages**, imposta **Deploy from a branch**, scegli `main` e `/(root)`, quindi salva.
-4. Apri l'indirizzo Pages generato da GitHub e distribuiscilo ai partecipanti.
-5. **Non pubblicare `GUIDA_FORMATORE.md`** se vuoi tenere riservate le soluzioni.
-
-Non sono necessari package manager, build o server di backend. Puoi anche ospitarla in qualunque normale hosting statico.
-
 ## Privacy e dati
 
 - La pagina **non invia richieste di rete**, non ha analytics, iframe, CDN, cookie o link remoti obbligatori.
@@ -53,6 +43,17 @@ Le regole richiamate dalle slide — CoVe, VER-01, VER-02, verifica incrociata e
 
 Tutto è in un singolo file `index.html`. Gli oggetti JavaScript `DOCS`, `CLAIMS`, `TRIAGE`, `CHECKLIST` e `CROSS` contengono rispettivamente fonti, affermazioni, domande, checklist e secondo parere. Puoi adattare testi e numeri, **facendo attenzione a mantenere coerenti** gli esiti e le evidenze corrette.
 
-## Licenza d'uso
+📄 Licenza
 
-Materiale didattico modificabile e riutilizzabile dal committente. I documenti non sono fonti giuridiche o amministrative autentiche.
+Da definire: si suggerisce una licenza aperta (es. MIT o CC BY 4.0) per favorire il riuso da parte di altri formatori o altri enti. Sostituisci questo paragrafo con il testo della licenza scelta e il file LICENSE del repo.
+
+👤 Autore e contesto
+
+Gianluigi Cogo Content creator e technical writer interessato ad AI generativa, automazioni, viaggi e strumenti digitali. Consulente e docente sui temi dell'IA generativa nella Pubblica Amministrazione.
+
+L'app nasce come esercitazione nel percorso operativo "L'IA nella Pubblica Amministrazione — Percorso operativo per l'uso consapevole, sicuro e governato dell'IA generativa" (20 ore: percorso base per funzionari ed esecutori + modulo governance per direttori e dirigenti). Per info sul corso contattatemi usando i social qui sotto.
+
+📮 Newsletter: gigicogo.substack.com
+📝 Blog: medium.com/webeconoscenza
+▶️ YouTube: youtube.com/@gigicogo
+💼 LinkedIn: linkedin.com/in/gigicogo
